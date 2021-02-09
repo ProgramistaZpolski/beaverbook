@@ -1,0 +1,12 @@
+{
+	"short_name": "Beaverbook",
+	"name": "Beaverbook",
+	"icons": [{
+		"src": "/assets/h.png",
+		"type": "image/png",
+		"sizes": "192x192"
+	}],
+	"start_url": "/?install=yes",
+	"background_color": "#fafafa",
+	"theme_color": "#fafafa"
+}
