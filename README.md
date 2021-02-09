@@ -1,4 +1,5 @@
 # beaverbook
+![Bezpieczeństwo](https://img.shields.io/badge/bezpiecze%C5%84stwo-yes-success)
 Super sieć społecznościowa zainspirowana przez konkurs bóbr
 
 ![Screenshot](https://raw.githubusercontent.com/ProgramistaZpolski/beaverbook/master/Screenshot_2021-02-09%20Beaverbook.png)
