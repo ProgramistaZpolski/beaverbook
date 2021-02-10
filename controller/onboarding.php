@@ -1,3 +1,3 @@
 <?php
 
-require "views/onboarding.view.php";
+require_once "views/onboarding.view.php";
