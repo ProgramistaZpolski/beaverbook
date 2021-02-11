@@ -32,6 +32,9 @@ class QueryBuilder
 		$part3 = str_replace("`", "", $part2);
 		$part4 = str_replace("/", "", $part3);
 		$part5 = str_replace("\\", "", $part4);
-		return $part5;
+		$part6 = str_replace("<", "", $part5);
+		$part7 = str_replace(">", "", $part6);
+		$part8 = str_replace("?", "", $part7);
+		return $part8;
 	}
 }
