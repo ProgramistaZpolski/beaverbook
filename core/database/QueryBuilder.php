@@ -27,7 +27,8 @@ class QueryBuilder
 
 	public function sanitize($query)
 	{
-		$part1 = str_replace("\"", "", $query);
+		$part0 = strip_tags($query);
+		$part1 = str_replace("\"", "", $part0);
 		$part2 = str_replace("'", "", $part1);
 		$part3 = str_replace("`", "", $part2);
 		$part4 = str_replace("/", "", $part3);
